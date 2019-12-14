@@ -1,4 +1,4 @@
-# Rl_racer
+# RL_Racer
 
 Ros impelmnation of deep learning tecniques for robot naviagation and facial recognition
 
