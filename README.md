@@ -7,7 +7,7 @@ Ros impelmnation of deep learning tecniques for robot naviagation and facial rec
 `Have ROS meliodic enviroment installed` 
 
 
-**Installation Guide:**
+**Installation Guide(Facial Recognition):**
 
 `pip install face_recognition` 
 
@@ -17,8 +17,10 @@ Ros impelmnation of deep learning tecniques for robot naviagation and facial rec
 
 `chmod +x [Files name]` 
 
+**Installation Guide(Deep learning navigation training):**
 
-**Running Guide**
+
+**Running Guide(Facial Recognition):**
 
 1. be in outermost file
 
