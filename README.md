@@ -17,7 +17,7 @@ Ros impelmnation of deep learning tecniques for robot naviagation and facial rec
 
 `chmod +x [Files name]` 
 
-**Installation Guide(Deep learning navigation training):**
+**Installation Guide(Deep RL agents):**
 
 I recommend creating a conda environment using python 2.7 for this project. 
 
@@ -29,7 +29,7 @@ Then:
 
 'conda install pytorch torchvision cudatoolkit=10.1 -c pytorch'    (change cudatoolkit version as necessary)
 
-
+'conda install matplotlib'
 
 **Running Guide(Facial Recognition):**
 
@@ -43,3 +43,24 @@ Then:
 
 5. While in RL_racer folder type into terminal $rosrun RL_racer face_finder.py
 
+**Running Guide(Deep RL agents)**
+
+To launch the gazebo simulation of small_track1 do:
+
+'roslaunch turtlebot3_gazebo small_track1.launch'
+
+1. Launching a Deep Deterministic Policy Gradient agent (DDPG)
+
+'roslaunch deepRL train_ddpg_agent_multistart.launch'
+
+2. Launching a Soft Actor-Critic agent (SAC)
+
+'roslaunch deepRL train_sac_agent_multistart.launch'
+
+3. Drive robot using teleop and store experience
+
+'roslaunch deepRL make_experience.launch'
+
+4. Launch an agent and see how it performs without noise
+
+'roslaunch deepRL test_agent.launch'
