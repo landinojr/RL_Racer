@@ -18,10 +18,16 @@ Ros impelmnation of deep learning tecniques for robot naviagation and facial rec
 `chmod +x [Files name]` 
 
 **Installation Guide(Deep learning navigation training):**
+
 I recommend creating a conda environment using python 2.7 for this project. 
+
 Follow directions at https://www.anaconda.com/distribution/#download-section to install anaconda
+
 Then:
-conda install pytorch torchvision cudatoolkit=10.1 -c pytorch    (change cudatoolkit version as necessary)
+
+'conda install numpy'
+
+'conda install pytorch torchvision cudatoolkit=10.1 -c pytorch'    (change cudatoolkit version as necessary)
 
 
 
