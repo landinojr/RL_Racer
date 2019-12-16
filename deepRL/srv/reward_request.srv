@@ -1,0 +1,11 @@
+# Inputs
+float64 x
+float64 y
+int8 checkpoint
+float64 min_distance
+bool new_episode
+---
+float64 reward
+bool nextCheckpoint
+float64 timeInCheckpoint
+float64 distance

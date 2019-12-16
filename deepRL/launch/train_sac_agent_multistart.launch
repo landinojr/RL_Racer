@@ -1,0 +1,7 @@
+<launch>
+    <node name="scanAverager" pkg="rlracer" type="scanAverager.py" output="screen"/>
+    <node name="GazeboListener" pkg="rlracer" type="GazeboListener.py" output="screen"/>
+    <node name="RewardServer" pkg="rlracer" type="RewardServer.py" output="screen"/>
+    <node name="CollisionDetector" pkg="rlracer" type="CollisionDetector.py" output="screen"/>
+    <node name="SACMaster_multiStart" pkg="rlracer" type="SACMaster_multiStart.py" output="screen"/>
+</launch>
