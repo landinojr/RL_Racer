@@ -25,11 +25,11 @@ Follow directions at https://www.anaconda.com/distribution/#download-section to 
 
 Then:
 
-'conda install numpy'
+`conda install numpy`
 
-'conda install pytorch torchvision cudatoolkit=10.1 -c pytorch'    (change cudatoolkit version as necessary)
+`conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`    (change cudatoolkit version as necessary)
 
-'conda install matplotlib'
+`conda install matplotlib`
 
 **Running Guide(Facial Recognition):**
 
@@ -47,20 +47,20 @@ Then:
 
 To launch the gazebo simulation of small_track1 do:
 
-'roslaunch turtlebot3_gazebo small_track1.launch'
+`roslaunch turtlebot3_gazebo small_track1.launch`
 
 1. Launching a Deep Deterministic Policy Gradient agent (DDPG)
 
-'roslaunch deepRL train_ddpg_agent_multistart.launch'
+`roslaunch deepRL train_ddpg_agent_multistart.launch`
 
 2. Launching a Soft Actor-Critic agent (SAC)
 
-'roslaunch deepRL train_sac_agent_multistart.launch'
+`roslaunch deepRL train_sac_agent_multistart.launch`
 
 3. Drive robot using teleop and store experience
 
-'roslaunch deepRL make_experience.launch'
+`roslaunch deepRL make_experience.launch`
 
 4. Launch an agent and see how it performs without noise
 
-'roslaunch deepRL test_agent.launch'
+`roslaunch deepRL test_agent.launch`
